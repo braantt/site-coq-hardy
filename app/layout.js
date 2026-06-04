@@ -9,7 +9,7 @@ export const metadata = {
     template: "%s | Le Coq Hardy Mantes-la-Jolie",
   },
   description:
-    "Le Coq Hardy, bar à cocktails et brasserie à Mantes-la-Jolie (78200). Venez déjeuner ou dîner : formules brasserie 15–20 € servies en 15 min, repas complet en 1h. Cocktails dès 8 €, Happy Hour à 6 €, terrasse et soirées DJ. Réservez votre table.",
+    "Le Coq Hardy, bar à cocktails et brasserie à Mantes-la-Jolie (78200). Venez déjeuner ou dîner : formules brasserie 15–20 € à service rapide, repas complet en 1h. Cocktails dès 8 €, Happy Hour à 6 €, terrasse et soirées DJ. Réservez votre table.",
   keywords: [
     "bar Mantes-la-Jolie",
     "bar à cocktails Mantes-la-Jolie",
@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Le Coq Hardy",
     title: "Le Coq Hardy — Bar à Cocktails & Brasserie à Mantes-la-Jolie",
     description:
-      "Cocktails signatures, Happy Hour à 6 €, formules brasserie 15–20 € servies en 15 min. Le rendez-vous chic et tropical de Mantes-la-Jolie.",
+      "Cocktails signatures, Happy Hour à 6 €, formules brasserie 15–20 € à service rapide. Le rendez-vous chic et tropical de Mantes-la-Jolie.",
     images: [
       {
         url: "/og-image.jpg",
@@ -57,7 +57,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Le Coq Hardy — Bar & Brasserie à Mantes-la-Jolie",
     description:
-      "Cocktails dès 8 €, Happy Hour à 6 €, formules 15–20 € en 15 min. Réservez votre table à Mantes-la-Jolie.",
+      "Cocktails dès 8 €, Happy Hour à 6 €, formules 15–20 € à service rapide. Réservez votre table à Mantes-la-Jolie.",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -74,7 +74,7 @@ const jsonLd = {
   "@id": SITE_URL + "/#business",
   name: "Le Coq Hardy",
   description:
-    "Bar à cocktails et brasserie tropicale chic à Mantes-la-Jolie : cocktails signatures, Happy Hour, formules brasserie servies en 15 minutes, terrasse et soirées DJ.",
+    "Bar à cocktails et brasserie tropicale chic à Mantes-la-Jolie : cocktails signatures, Happy Hour, formules brasserie à service rapide, terrasse et soirées DJ.",
   url: SITE_URL,
   telephone: "+33-X-XX-XX-XX-XX",
   priceRange: "€€",

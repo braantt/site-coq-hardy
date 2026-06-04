@@ -39,7 +39,7 @@ export default function Hero() {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="mb-6 inline-block rounded-full glass px-5 py-2 text-xs uppercase tracking-[0.3em] text-sand"
         >
-          Bar à Cocktails · Brasserie · Déjeuner · Mantes-la-Jolie
+          Bar à Cocktails · Brasserie · Mantes-la-Jolie
         </motion.span>
 
         <motion.h1
@@ -90,7 +90,7 @@ export default function Hero() {
             <span className="text-gold">●</span> Formules midi 15–20 €
           </span>
           <span className="flex items-center gap-2">
-            <span className="text-gold">●</span> Servi en 15 min
+            <span className="text-gold">●</span> Service rapide
           </span>
           <span className="flex items-center gap-2">
             <span className="text-gold">●</span> Repas complet en 1h

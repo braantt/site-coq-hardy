@@ -9,7 +9,7 @@ export default function Footer() {
           <h3 className="font-display text-3xl">Le Coq Hardy</h3>
           <p className="mt-4 text-sand/70 text-sm leading-relaxed">
             Bar à cocktails & brasserie tropicale au cœur de Mantes-la-Jolie.
-            Cocktails signatures, Happy Hour et formules midi servies en 15 min.
+            Cocktails signatures, Happy Hour et formules midi à service rapide.
           </p>
           <div className="mt-6 flex gap-4">
             <a

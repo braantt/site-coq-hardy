@@ -7,20 +7,20 @@ const formules = [
   {
     name: "Formule Midi",
     price: "15 €",
-    items: ["Plat du jour", "Boisson soft ou café", "Service en 15 min"],
+    items: ["Plat du jour", "Boisson soft ou café", "Service rapide"],
     img: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=800&auto=format&fit=crop",
   },
   {
     name: "Formule Coq",
     price: "18 €",
-    items: ["Entrée + Plat", "Dessert maison", "Service en 15 min"],
+    items: ["Entrée + Plat", "Dessert maison", "Service rapide"],
     featured: true,
     img: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=800&auto=format&fit=crop",
   },
   {
     name: "Formule Terrasse",
     price: "20 €",
-    items: ["Plat + Dessert", "Verre de vin ou cocktail soft", "Service en 15 min"],
+    items: ["Plat + Dessert", "Verre de vin ou cocktail soft", "Service rapide"],
     img: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=800&auto=format&fit=crop",
   },
 ];
@@ -54,7 +54,7 @@ export default function Brasserie() {
           <div className="mx-auto mb-14 flex w-fit flex-wrap items-center justify-center gap-x-6 gap-y-2 rounded-full bg-forest px-6 py-3 text-sand shadow-soft">
             <span className="flex items-center gap-2">
               <Timer size={20} className="text-gold" />
-              <span className="font-medium">Plat servi en moins de 15 min</span>
+              <span className="font-medium">Service rapide</span>
             </span>
             <span className="hidden sm:inline h-4 w-px bg-sand/30" />
             <span className="font-medium">Repas complet en 1h chrono</span>
