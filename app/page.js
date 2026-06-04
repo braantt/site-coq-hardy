@@ -7,6 +7,7 @@ import Ambiance from "@/components/Ambiance";
 import Events from "@/components/Events";
 import Reviews from "@/components/Reviews";
 import Reservation from "@/components/Reservation";
+import MapSection from "@/components/MapSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Events />
       <Reviews />
       <Reservation />
+      <MapSection />
       <Footer />
     </main>
   );

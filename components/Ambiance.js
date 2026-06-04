@@ -40,7 +40,9 @@ export default function Ambiance() {
               >
                 <img
                   src={src}
-                  alt={`Ambiance ${i + 1}`}
+                  alt={`Ambiance bar à cocktails Le Coq Hardy à Mantes-la-Jolie ${
+                    i + 1
+                  }`}
                   className={`w-full object-cover ${
                     i % 3 === 0 ? "h-80" : "h-56"
                   }`}

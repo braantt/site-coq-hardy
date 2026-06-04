@@ -19,18 +19,20 @@ export default function About() {
           </Reveal>
           <Reveal delay={0.2}>
             <p className="mt-6 text-lg text-forest/80 leading-relaxed">
-              Au cœur d'un décor tropical baigné de lumière dorée, Le Coq Hardy
-              réinvente l'art du cocktail. Nos mixologues composent des
+              Au cœur de <span className="text-forest font-medium">Mantes-la-Jolie</span>,
+              à deux pas de la Place du Marché au Blé, Le Coq Hardy réinvente
+              l'art du cocktail. Nos mixologues composent des
               <span className="text-forest font-medium"> créations signatures </span>
               à partir de produits frais et d'alcools d'exception.
             </p>
           </Reveal>
           <Reveal delay={0.3}>
             <p className="mt-4 text-lg text-forest/80 leading-relaxed">
-              Entre palmiers, terrasse ensoleillée et soirées musicales
-              feutrées, chaque instant devient une parenthèse de luxe — une
-              ambiance raffinée où l'on se sent en vacances, à deux pas de chez
-              soi.
+              Premier bar lounge tropical des Yvelines, nous accueillons les
+              habitants de Mantes-la-Jolie, Mantes-la-Ville, Limay et Buchelay
+              dans une ambiance raffinée — entre palmiers, terrasse ensoleillée
+              et soirées musicales feutrées. Une parenthèse de luxe, comme en
+              vacances, à deux pas de chez soi.
             </p>
           </Reveal>
           <Reveal delay={0.4}>

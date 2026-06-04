@@ -39,7 +39,7 @@ export default function Hero() {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="mb-6 inline-block rounded-full glass px-5 py-2 text-xs uppercase tracking-[0.3em] text-sand"
         >
-          Beach Club · Lounge · Cocktails
+          Bar à Cocktails · Brasserie · Mantes-la-Jolie
         </motion.span>
 
         <motion.h1
