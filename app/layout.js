@@ -9,12 +9,18 @@ export const metadata = {
     template: "%s | Le Coq Hardy Mantes-la-Jolie",
   },
   description:
-    "Le Coq Hardy, bar à cocktails et brasserie tropicale chic au cœur de Mantes-la-Jolie (78200). Cocktails signatures dès 8 €, Happy Hour à 6 €, formules brasserie 15–20 € servies en 15 min, terrasse ensoleillée et soirées DJ. Réservez votre table.",
+    "Le Coq Hardy, bar à cocktails et brasserie à Mantes-la-Jolie (78200). Venez déjeuner ou dîner : formules brasserie 15–20 € servies en 15 min, repas complet en 1h. Cocktails dès 8 €, Happy Hour à 6 €, terrasse et soirées DJ. Réservez votre table.",
   keywords: [
     "bar Mantes-la-Jolie",
     "bar à cocktails Mantes-la-Jolie",
-    "cocktails Mantes-la-Jolie",
     "brasserie Mantes-la-Jolie",
+    "restaurant Mantes-la-Jolie",
+    "déjeuner Mantes-la-Jolie",
+    "où manger Mantes-la-Jolie",
+    "formule midi Mantes-la-Jolie",
+    "menu du jour Mantes-la-Jolie",
+    "pause déjeuner Mantes-la-Jolie",
+    "cocktails Mantes-la-Jolie",
     "happy hour Mantes-la-Jolie",
     "bar lounge Yvelines",
     "terrasse Mantes-la-Jolie",
@@ -64,7 +70,7 @@ export const metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "BarOrPub",
+  "@type": ["BarOrPub", "Restaurant"],
   "@id": SITE_URL + "/#business",
   name: "Le Coq Hardy",
   description:
@@ -72,7 +78,8 @@ const jsonLd = {
   url: SITE_URL,
   telephone: "+33-X-XX-XX-XX-XX",
   priceRange: "€€",
-  servesCuisine: ["Cocktails", "Brasserie", "Cuisine méditerranéenne"],
+  servesCuisine: ["Cocktails", "Brasserie", "Cuisine française"],
+  hasMenu: SITE_URL + "/#brasserie",
   image: SITE_URL + "/og-image.jpg",
   address: {
     "@type": "PostalAddress",
@@ -109,7 +116,6 @@ const jsonLd = {
       closes: "02:00",
     },
   ],
-  servesCuisine: ["Cocktails", "Brasserie"],
   acceptsReservations: "True",
   sameAs: [],
 };

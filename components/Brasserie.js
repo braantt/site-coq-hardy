@@ -37,21 +37,27 @@ export default function Brasserie() {
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="mt-4 font-display text-5xl md:text-6xl text-forest">
-              Formules midi & soir
+              Pas qu'un bar : une vraie brasserie
             </h2>
           </Reveal>
           <Reveal delay={0.2}>
             <p className="mt-5 text-forest/70 text-lg">
-              Une cuisine généreuse, des produits frais et un service éclair.
-              Mangez bien sans attendre, à prix juste.
+              Le midi comme le soir, on vient manger au Coq Hardy. Cuisine
+              maison, produits frais et service éclair : entrée, plat et
+              dessert, le tout en moins d'une heure. Idéal pour une pause
+              déjeuner ou un dîner sans attendre.
             </p>
           </Reveal>
         </div>
 
         <Reveal delay={0.25}>
-          <div className="mx-auto mb-14 flex w-fit items-center gap-3 rounded-full bg-forest px-6 py-3 text-sand shadow-soft">
-            <Timer size={20} className="text-gold" />
-            <span className="font-medium">Service rapide garanti — servi en moins de 15 minutes</span>
+          <div className="mx-auto mb-14 flex w-fit flex-wrap items-center justify-center gap-x-6 gap-y-2 rounded-full bg-forest px-6 py-3 text-sand shadow-soft">
+            <span className="flex items-center gap-2">
+              <Timer size={20} className="text-gold" />
+              <span className="font-medium">Plat servi en moins de 15 min</span>
+            </span>
+            <span className="hidden sm:inline h-4 w-px bg-sand/30" />
+            <span className="font-medium">Repas complet en 1h chrono</span>
           </div>
         </Reveal>
 

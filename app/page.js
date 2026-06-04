@@ -16,8 +16,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <Cocktails />
       <Brasserie />
+      <Cocktails />
       <Ambiance />
       <Events />
       <Reviews />
