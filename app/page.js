@@ -8,6 +8,7 @@ import Events from "@/components/Events";
 import Reviews from "@/components/Reviews";
 import Reservation from "@/components/Reservation";
 import MapSection from "@/components/MapSection";
+import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Reviews />
       <Reservation />
       <MapSection />
+      <Faq />
       <Footer />
     </main>
   );

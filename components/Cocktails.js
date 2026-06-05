@@ -69,6 +69,8 @@ export default function Cocktails() {
               >
                 <div className="relative h-60 overflow-hidden">
                   <img
+                  loading="lazy"
+                  decoding="async"
                     src={c.img}
                     alt={c.name}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"

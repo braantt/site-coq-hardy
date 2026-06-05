@@ -58,6 +58,8 @@ export default function About() {
             className="relative rounded-[2rem] overflow-hidden shadow-soft"
           >
             <img
+                  loading="lazy"
+                  decoding="async"
               src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1200&auto=format&fit=crop"
               alt="Cocktails Le Coq Hardy"
               className="w-full h-[560px] object-cover"

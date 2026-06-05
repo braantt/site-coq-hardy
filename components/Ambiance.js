@@ -39,6 +39,8 @@ export default function Ambiance() {
                 className="overflow-hidden rounded-2xl shadow-soft break-inside-avoid"
               >
                 <img
+                  loading="lazy"
+                  decoding="async"
                   src={src}
                   alt={`Ambiance bar à cocktails Le Coq Hardy à Mantes-la-Jolie ${
                     i + 1

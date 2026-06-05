@@ -10,6 +10,7 @@ const links = [
   { label: "Ambiance", href: "#ambiance" },
   { label: "Événements", href: "#evenements" },
   { label: "Avis", href: "#avis" },
+  { label: "FAQ", href: "#faq" },
 ];
 
 export default function Navbar() {

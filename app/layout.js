@@ -68,6 +68,12 @@ export const metadata = {
   category: "restaurant",
 };
 
+export const viewport = {
+  themeColor: "#68825b",
+  width: "device-width",
+  initialScale: 1,
+};
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": ["BarOrPub", "Restaurant"],
@@ -120,6 +126,61 @@ const jsonLd = {
   sameAs: [],
 };
 
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Faut-il réserver une table au Coq Hardy ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "La réservation est conseillée, surtout le week-end et lors des soirées DJ. Vous pouvez réserver directement en ligne depuis notre site. Les groupes sont les bienvenus sur demande.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Le Coq Hardy est-il un bar ou une brasserie ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Les deux. Le midi et le soir, nous servons des formules brasserie de 15 à 20 € avec un service rapide — un repas complet en une heure. Et à tout moment, vous pouvez profiter de nos cocktails signatures sur la terrasse.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Quels sont les horaires du Happy Hour ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Notre Happy Hour a lieu tous les jours de 18h à 20h : tous les cocktails sont à 6 €.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Où se situe Le Coq Hardy et comment y accéder ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Nous sommes au 25 Place du Marché au Blé, au cœur de Mantes-la-Jolie (78200), à quelques minutes de la gare et accessible depuis Mantes-la-Ville, Limay et Buchelay.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Y a-t-il une terrasse ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Oui, notre terrasse ensoleillée à l'ambiance tropicale est ouverte en saison, parfaite pour un déjeuner, un verre au coucher du soleil ou une Sunset Party.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Proposez-vous des soirées et événements ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Oui : soirées DJ le vendredi, Live Music le samedi, Sunset Party le dimanche, et le Happy Hour chaque jour.",
+      },
+    },
+  ],
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
@@ -137,6 +198,10 @@ export default function RootLayout({ children }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
         />
       </head>
       <body className="font-body">{children}</body>
