@@ -1,32 +1,22 @@
 "use client";
 import Reveal from "./Reveal";
 import { motion } from "framer-motion";
-import { Disc3, Wine, Music, Sunset } from "lucide-react";
+import { Wine, CalendarClock } from "lucide-react";
 
 const events = [
   {
-    icon: Disc3,
-    title: "Soirée DJ",
-    desc: "Sets house & deep electro tous les vendredis dès 22h.",
-    tag: "Vendredi",
-  },
-  {
     icon: Wine,
     title: "Happy Hour",
-    desc: "Cocktails à -30% chaque jour de 18h à 20h sur la terrasse.",
-    tag: "18h — 20h",
+    desc: "Tous les cocktails à 6 € chaque jour de 18h à 20h sur la terrasse.",
+    tag: "Tous les jours · 18h — 20h",
+    featured: true,
   },
   {
-    icon: Music,
-    title: "Live Music",
-    desc: "Bossa nova, jazz et voix soul en formule acoustique.",
-    tag: "Samedi",
-  },
-  {
-    icon: Sunset,
-    title: "Sunset Party",
-    desc: "Le coucher de soleil, un verre à la main, face à la piscine.",
-    tag: "Dimanche",
+    icon: CalendarClock,
+    title: "Bientôt de nouveaux rendez-vous",
+    desc: "Soirées et animations arriveront au fur et à mesure. La programmation sera communiquée sur nos réseaux sociaux — restez connectés !",
+    tag: "Prochainement",
+    featured: false,
   },
 ];
 
@@ -47,7 +37,7 @@ export default function Events() {
           </Reveal>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {events.map((e, i) => {
             const Icon = e.icon;
             return (

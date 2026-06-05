@@ -7,7 +7,7 @@ import Reveal from "./Reveal";
 const faqs = [
   {
     q: "Faut-il réserver une table au Coq Hardy ?",
-    a: "La réservation est conseillée, surtout le week-end et lors des soirées DJ. Vous pouvez réserver directement en ligne depuis la section réservation de notre site. Les groupes sont les bienvenus sur demande.",
+    a: "La réservation est conseillée, surtout le week-end et en soirée. Vous pouvez réserver directement en ligne depuis la section réservation de notre site. Les groupes sont les bienvenus sur demande.",
   },
   {
     q: "Le Coq Hardy est-il un bar ou une brasserie ?",
@@ -23,11 +23,11 @@ const faqs = [
   },
   {
     q: "Y a-t-il une terrasse ?",
-    a: "Oui, notre terrasse ensoleillée à l'ambiance tropicale est l'un de nos atouts. Elle est ouverte en saison, parfaite pour un déjeuner, un verre au coucher du soleil ou une Sunset Party.",
+    a: "Oui, notre terrasse ensoleillée à l'ambiance tropicale est l'un de nos atouts. Elle est ouverte en saison, parfaite pour un déjeuner, un verre au coucher du soleil ou un afterwork.",
   },
   {
     q: "Proposez-vous des soirées et événements ?",
-    a: "Oui : soirées DJ le vendredi, Live Music le samedi, Sunset Party le dimanche, et le Happy Hour chaque jour. Suivez-nous pour connaître la programmation à venir.",
+    a: "Pour le moment, notre rendez-vous régulier est le Happy Hour quotidien de 18h à 20h. De nouvelles soirées et animations arriveront au fur et à mesure : la programmation sera communiquée plus tard sur nos réseaux sociaux.",
   },
 ];
 

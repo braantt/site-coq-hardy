@@ -9,7 +9,7 @@ export const metadata = {
     template: "%s | Le Coq Hardy Mantes-la-Jolie",
   },
   description:
-    "Le Coq Hardy, bar à cocktails et brasserie à Mantes-la-Jolie (78200). Venez déjeuner ou dîner : formules brasserie 15–20 € à service rapide, repas complet en 1h. Cocktails dès 8 €, Happy Hour à 6 €, terrasse et soirées DJ. Réservez votre table.",
+    "Le Coq Hardy, bar à cocktails et brasserie à Mantes-la-Jolie (78200). Venez déjeuner ou dîner : formules brasserie 15–20 € à service rapide, repas complet en 1h. Cocktails dès 8 €, Happy Hour à 6 € et terrasse ensoleillée. Réservez votre table.",
   keywords: [
     "bar Mantes-la-Jolie",
     "bar à cocktails Mantes-la-Jolie",
@@ -80,7 +80,7 @@ const jsonLd = {
   "@id": SITE_URL + "/#business",
   name: "Le Coq Hardy",
   description:
-    "Bar à cocktails et brasserie tropicale chic à Mantes-la-Jolie : cocktails signatures, Happy Hour, formules brasserie à service rapide, terrasse et soirées DJ.",
+    "Bar à cocktails et brasserie tropicale chic à Mantes-la-Jolie : cocktails signatures, Happy Hour, formules brasserie à service rapide et terrasse ensoleillée.",
   url: SITE_URL,
   telephone: "+33-X-XX-XX-XX-XX",
   priceRange: "€€",
@@ -135,7 +135,7 @@ const faqLd = {
       name: "Faut-il réserver une table au Coq Hardy ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "La réservation est conseillée, surtout le week-end et lors des soirées DJ. Vous pouvez réserver directement en ligne depuis notre site. Les groupes sont les bienvenus sur demande.",
+        text: "La réservation est conseillée, surtout le week-end et en soirée. Vous pouvez réserver directement en ligne depuis notre site. Les groupes sont les bienvenus sur demande.",
       },
     },
     {
@@ -167,7 +167,7 @@ const faqLd = {
       name: "Y a-t-il une terrasse ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Oui, notre terrasse ensoleillée à l'ambiance tropicale est ouverte en saison, parfaite pour un déjeuner, un verre au coucher du soleil ou une Sunset Party.",
+        text: "Oui, notre terrasse ensoleillée à l'ambiance tropicale est ouverte en saison, parfaite pour un déjeuner, un verre au coucher du soleil ou un afterwork.",
       },
     },
     {
@@ -175,7 +175,7 @@ const faqLd = {
       name: "Proposez-vous des soirées et événements ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Oui : soirées DJ le vendredi, Live Music le samedi, Sunset Party le dimanche, et le Happy Hour chaque jour.",
+        text: "Pour le moment, notre rendez-vous régulier est le Happy Hour quotidien de 18h à 20h. De nouvelles soirées et animations arriveront au fur et à mesure : la programmation sera communiquée plus tard sur nos réseaux sociaux.",
       },
     },
   ],
