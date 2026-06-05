@@ -70,7 +70,7 @@ export default function Hero() {
             href="#reservation"
             className="rounded-full bg-gold px-8 py-4 font-medium text-forest hover:bg-sand transition-all hover:scale-105 shadow-glow"
           >
-            Réserver une table
+            Être informé de l'ouverture
           </a>
           <a
             href="#brasserie"

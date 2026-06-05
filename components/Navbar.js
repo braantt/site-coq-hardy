@@ -13,7 +13,7 @@ const links = [
   { label: "FAQ", href: "#faq" },
 ];
 
-export default function Navbar() {
+export default function Navbar({ topOffset = 0 }) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -28,7 +28,8 @@ export default function Navbar() {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
+      style={{ top: topOffset }}
+      className={`fixed inset-x-0 z-50 transition-all duration-500 ${
         scrolled ? "glass-dark py-3" : "py-6"
       }`}
     >
@@ -56,7 +57,7 @@ export default function Navbar() {
             href="#reservation"
             className="rounded-full bg-gold px-6 py-2.5 text-sm font-medium text-forest hover:bg-sand transition-colors shadow-glow"
           >
-            Réserver
+            Ouverture prochaine
           </a>
         </nav>
 
@@ -99,7 +100,7 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
               className="mt-4 rounded-full bg-gold px-8 py-3 text-forest font-medium"
             >
-              Réserver une table
+              Ouverture prochaine
             </a>
           </motion.div>
         )}

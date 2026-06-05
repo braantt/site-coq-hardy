@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import SiteChrome from "@/components/SiteChrome";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Cocktails from "@/components/Cocktails";
@@ -14,7 +14,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="overflow-x-hidden">
-      <Navbar />
+      <SiteChrome />
       <Hero />
       <About />
       <Brasserie />
